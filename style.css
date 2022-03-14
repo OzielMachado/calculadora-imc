@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    margin: 20px 0;
+    color:  #0093E9;
+
+}
+
+#calculadora{
+    padding: 15px;
+    border-radius: 15px;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    font-weight: bold;
+
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+#calculadora input{
+    border: 1px solid black;
+    border-radius: 5px;
+    border: none;
+    padding: 3px;
+}
+
+span{
+    display: flex;
+    width:100%;
+    justify-content: center;
+}
+
+span input + input{
+    margin-left: 20px;
+}
+
+span input{
+    padding: 5px;
+    border-radius: 9px;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+span input:hover{
+    background-color: #0093E9;
+    color: white;
+    cursor: pointer;
+}
+
+table{
+    margin-top: 50px;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+thead td{
+    font-weight: bold;
+}
+
+thead td{
+    border-bottom: 1px solid black;
+}
+
+td + td{
+    border-left: 1px solid black;   
+}
+
+td{
+    text-align: center;
+    width:140px;
+}
+
